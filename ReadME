@@ -1,0 +1,26 @@
+# Creating a Secure IPsec Site to Site Tunnel between two sites 
+
+## Overview
+This project connects Site A and Site B via a VPN 
+using IKE PHase and and IKE Phase 2 
+
+
+## Features
+- Three Routers, 1 for ISP , 1 for Site A and another for Site B 
+- Each site has a Layer 2 switch and there are two Pcs under each
+- Proper cable types and interface configuration
+- Connectivity testing with ping 
+
+## Files in this Repository
+- PacketTracer/Creating a secure Site to Site VPN tunnel between two sites .pkt 
+- Documentation.docx — project documentation
+
+## How to Use
+1. Download `.pkt` file
+2. Open in Cisco Packet Tracer
+3. Test connectivity and verify the VPN tunnel is working accordingly by running "sh crypto ipsec sa"
+on the Site A and Site B Router 
+
+
+---Author---
+<<Thobisani Mabaso>>
